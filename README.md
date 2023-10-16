@@ -32,7 +32,7 @@ docker build -t php-app .
 4. Crie um container baseado na imagem gerada:
 
 ```bash
-docker run -d -p 8080:80 --name eliseu-backend-php php-app
+docker run -d -p 8080:80 --name eliseu-backend-php -v ./src:/var/www/html php-app
 ```
 
 5. Acesse o navegador pela url `localhost:8080`.
