@@ -21,7 +21,7 @@
                 <a href="/excluir-usuario.php?id=<?= $usuario['id'] ?>">
                     Excluir
                 </a>
-                <a href="/editar-usuario.php?id=<?= $usuario['id'] ?>">
+                <a href="/editar-usuario.php">
                     Editar
                 </a>
             </li>

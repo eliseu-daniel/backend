@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/editar-usuario-sessao.php" method="GET">
+    <form action="/editar-usuario-sessao.php?id=" method="POST">
         <label for="">
             Nome do usuário
         </label>
