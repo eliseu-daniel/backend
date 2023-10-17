@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/editar-usuario-sessao.php?id=" method="POST">
+    <form action="/editar-usuario-sessao.php?id=<?= $id ?>" method="POST">
         <label for="">
             Nome do usuário
         </label>
